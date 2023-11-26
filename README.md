@@ -6,22 +6,22 @@ The provided code applies four distinct unsupervised machine-learning algorithms
 
 1. **KMeans:**
    - **Purpose:** KMeans is a partitioning method that divides data points into k clusters based on similarity.
-   - **Key Parameters:** `n_clusters` specifies the number of clusters.
+   - **Key Parameters:** n_clusters specifies the number of clusters.
    - **Evaluation Metrics:** Silhouette Score and Davies-Bouldin Score.
 
 2. **DBSCAN (Density-Based Spatial Clustering of Applications with Noise):**
    - **Purpose:** DBSCAN identifies dense regions in data, separating clusters based on the density of data points.
-   - **Key Parameters:** `eps` defines the maximum distance between two samples, and `min_samples` sets the number of samples in a neighborhood.
+   - **Key Parameters:** eps defines the maximum distance between two samples, and `min_samples` sets the number of samples in a neighborhood.
    - **Evaluation Metrics:** Silhouette Score and Davies-Bouldin Score.
 
 3. **Agglomerative Clustering:**
    - **Purpose:** Agglomerative Clustering is a hierarchical method that recursively merges clusters based on proximity.
-   - **Key Parameters:** `n_clusters` sets the number of clusters.
+   - **Key Parameters:** n_clusters sets the number of clusters.
    - **Evaluation Metrics:** Silhouette Score and Davies-Bouldin Score.
 
 4. **Gaussian Mixture Model (GMM):**
    - **Purpose:** GMM assumes data points are generated from a mixture of Gaussian distributions, assigning probabilities to each point belonging to different clusters.
-   - **Key Parameters:** `n_components` sets the number of Gaussian components.
+   - **Key Parameters:** n_components sets the number of Gaussian components.
    - **Evaluation Metrics:** Silhouette Score and Davies-Bouldin Score.
 
 ## Steps in the Code:
